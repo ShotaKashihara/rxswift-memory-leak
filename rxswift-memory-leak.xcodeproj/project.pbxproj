@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D14035E95B6C177A42151B3 /* Pods_rxswift_memory_leakTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE4AB0C5FDEE38B81A228EC9 /* Pods_rxswift_memory_leakTests.framework */; };
+		CAF79B627BDB254E89B53E9F /* Pods_rxswift_memory_leak.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C5CC2C2AEE4478F0C02DF45 /* Pods_rxswift_memory_leak.framework */; };
+		EF30E65823151CBD003DFD3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF30E65723151CBD003DFD3F /* AppDelegate.swift */; };
+		EF30E65A23151CBD003DFD3F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF30E65923151CBD003DFD3F /* ViewController.swift */; };
+		EF30E65D23151CBD003DFD3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF30E65B23151CBD003DFD3F /* Main.storyboard */; };
+		EF30E66023151CBD003DFD3F /* rxswift_memory_leak.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF30E65E23151CBD003DFD3F /* rxswift_memory_leak.xcdatamodeld */; };
+		EF30E66223151CBD003DFD3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF30E66123151CBD003DFD3F /* Assets.xcassets */; };
+		EF30E66523151CBD003DFD3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF30E66323151CBD003DFD3F /* LaunchScreen.storyboard */; };
+		EF30E67023151CBE003DFD3F /* rxswift_memory_leakTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF30E66F23151CBE003DFD3F /* rxswift_memory_leakTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF30E66C23151CBE003DFD3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF30E64C23151CBD003DFD3F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF30E65323151CBD003DFD3F;
+			remoteInfo = "rxswift-memory-leak";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03E2A45538020425C60EB16E /* Pods-rxswift-memory-leakTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rxswift-memory-leakTests.release.xcconfig"; path = "Target Support Files/Pods-rxswift-memory-leakTests/Pods-rxswift-memory-leakTests.release.xcconfig"; sourceTree = "<group>"; };
+		5A8B89FF5CE81B9583AD560D /* Pods-rxswift-memory-leakTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rxswift-memory-leakTests.debug.xcconfig"; path = "Target Support Files/Pods-rxswift-memory-leakTests/Pods-rxswift-memory-leakTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5C5CC2C2AEE4478F0C02DF45 /* Pods_rxswift_memory_leak.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rxswift_memory_leak.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		874A8F71E5FF6F08ECEF34BD /* Pods-rxswift-memory-leak.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rxswift-memory-leak.release.xcconfig"; path = "Target Support Files/Pods-rxswift-memory-leak/Pods-rxswift-memory-leak.release.xcconfig"; sourceTree = "<group>"; };
+		BCE53E35488ECC6547CC208A /* Pods-rxswift-memory-leak.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rxswift-memory-leak.debug.xcconfig"; path = "Target Support Files/Pods-rxswift-memory-leak/Pods-rxswift-memory-leak.debug.xcconfig"; sourceTree = "<group>"; };
+		BE4AB0C5FDEE38B81A228EC9 /* Pods_rxswift_memory_leakTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rxswift_memory_leakTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF30E65423151CBD003DFD3F /* rxswift-memory-leak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rxswift-memory-leak.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF30E65723151CBD003DFD3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF30E65923151CBD003DFD3F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF30E65C23151CBD003DFD3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF30E65F23151CBD003DFD3F /* rxswift_memory_leak.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = rxswift_memory_leak.xcdatamodel; sourceTree = "<group>"; };
+		EF30E66123151CBD003DFD3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF30E66423151CBD003DFD3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF30E66623151CBD003DFD3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF30E66B23151CBE003DFD3F /* rxswift-memory-leakTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "rxswift-memory-leakTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF30E66F23151CBE003DFD3F /* rxswift_memory_leakTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rxswift_memory_leakTests.swift; sourceTree = "<group>"; };
+		EF30E67123151CBE003DFD3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF30E65123151CBD003DFD3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAF79B627BDB254E89B53E9F /* Pods_rxswift_memory_leak.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF30E66823151CBE003DFD3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D14035E95B6C177A42151B3 /* Pods_rxswift_memory_leakTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4EAC9C5A7C7801F4E3748D1B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C5CC2C2AEE4478F0C02DF45 /* Pods_rxswift_memory_leak.framework */,
+				BE4AB0C5FDEE38B81A228EC9 /* Pods_rxswift_memory_leakTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4FD2BBB6D550648B4094337 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BCE53E35488ECC6547CC208A /* Pods-rxswift-memory-leak.debug.xcconfig */,
+				874A8F71E5FF6F08ECEF34BD /* Pods-rxswift-memory-leak.release.xcconfig */,
+				5A8B89FF5CE81B9583AD560D /* Pods-rxswift-memory-leakTests.debug.xcconfig */,
+				03E2A45538020425C60EB16E /* Pods-rxswift-memory-leakTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EF30E64B23151CBD003DFD3F = {
+			isa = PBXGroup;
+			children = (
+				EF30E65623151CBD003DFD3F /* rxswift-memory-leak */,
+				EF30E66E23151CBE003DFD3F /* rxswift-memory-leakTests */,
+				EF30E65523151CBD003DFD3F /* Products */,
+				E4FD2BBB6D550648B4094337 /* Pods */,
+				4EAC9C5A7C7801F4E3748D1B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EF30E65523151CBD003DFD3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF30E65423151CBD003DFD3F /* rxswift-memory-leak.app */,
+				EF30E66B23151CBE003DFD3F /* rxswift-memory-leakTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF30E65623151CBD003DFD3F /* rxswift-memory-leak */ = {
+			isa = PBXGroup;
+			children = (
+				EF30E65723151CBD003DFD3F /* AppDelegate.swift */,
+				EF30E65923151CBD003DFD3F /* ViewController.swift */,
+				EF30E65B23151CBD003DFD3F /* Main.storyboard */,
+				EF30E66123151CBD003DFD3F /* Assets.xcassets */,
+				EF30E66323151CBD003DFD3F /* LaunchScreen.storyboard */,
+				EF30E66623151CBD003DFD3F /* Info.plist */,
+				EF30E65E23151CBD003DFD3F /* rxswift_memory_leak.xcdatamodeld */,
+			);
+			path = "rxswift-memory-leak";
+			sourceTree = "<group>";
+		};
+		EF30E66E23151CBE003DFD3F /* rxswift-memory-leakTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF30E66F23151CBE003DFD3F /* rxswift_memory_leakTests.swift */,
+				EF30E67123151CBE003DFD3F /* Info.plist */,
+			);
+			path = "rxswift-memory-leakTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF30E65323151CBD003DFD3F /* rxswift-memory-leak */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF30E67423151CBE003DFD3F /* Build configuration list for PBXNativeTarget "rxswift-memory-leak" */;
+			buildPhases = (
+				9CE60E174F97C9004B87C58B /* [CP] Check Pods Manifest.lock */,
+				EF30E65023151CBD003DFD3F /* Sources */,
+				EF30E65123151CBD003DFD3F /* Frameworks */,
+				EF30E65223151CBD003DFD3F /* Resources */,
+				18BE0F28C751B5FC8A02AFF1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "rxswift-memory-leak";
+			productName = "rxswift-memory-leak";
+			productReference = EF30E65423151CBD003DFD3F /* rxswift-memory-leak.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF30E66A23151CBE003DFD3F /* rxswift-memory-leakTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF30E67723151CBE003DFD3F /* Build configuration list for PBXNativeTarget "rxswift-memory-leakTests" */;
+			buildPhases = (
+				ACC9A36A614FEFF748CA5197 /* [CP] Check Pods Manifest.lock */,
+				EF30E66723151CBE003DFD3F /* Sources */,
+				EF30E66823151CBE003DFD3F /* Frameworks */,
+				EF30E66923151CBE003DFD3F /* Resources */,
+				4ED4C25695778CDC17585FC3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF30E66D23151CBE003DFD3F /* PBXTargetDependency */,
+			);
+			name = "rxswift-memory-leakTests";
+			productName = "rxswift-memory-leakTests";
+			productReference = EF30E66B23151CBE003DFD3F /* rxswift-memory-leakTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF30E64C23151CBD003DFD3F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = shota.kashihara.koala;
+				TargetAttributes = {
+					EF30E65323151CBD003DFD3F = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					EF30E66A23151CBE003DFD3F = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = EF30E65323151CBD003DFD3F;
+					};
+				};
+			};
+			buildConfigurationList = EF30E64F23151CBD003DFD3F /* Build configuration list for PBXProject "rxswift-memory-leak" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF30E64B23151CBD003DFD3F;
+			productRefGroup = EF30E65523151CBD003DFD3F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF30E65323151CBD003DFD3F /* rxswift-memory-leak */,
+				EF30E66A23151CBE003DFD3F /* rxswift-memory-leakTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF30E65223151CBD003DFD3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF30E66523151CBD003DFD3F /* LaunchScreen.storyboard in Resources */,
+				EF30E66223151CBD003DFD3F /* Assets.xcassets in Resources */,
+				EF30E65D23151CBD003DFD3F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF30E66923151CBE003DFD3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18BE0F28C751B5FC8A02AFF1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-rxswift-memory-leak/Pods-rxswift-memory-leak-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRelay.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-rxswift-memory-leak/Pods-rxswift-memory-leak-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4ED4C25695778CDC17585FC3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-rxswift-memory-leakTests/Pods-rxswift-memory-leakTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxBlocking/RxBlocking.framework",
+				"${BUILT_PRODUCTS_DIR}/RxTest/RxTest.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxBlocking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxTest.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-rxswift-memory-leakTests/Pods-rxswift-memory-leakTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CE60E174F97C9004B87C58B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-rxswift-memory-leak-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACC9A36A614FEFF748CA5197 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-rxswift-memory-leakTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF30E65023151CBD003DFD3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF30E65A23151CBD003DFD3F /* ViewController.swift in Sources */,
+				EF30E66023151CBD003DFD3F /* rxswift_memory_leak.xcdatamodeld in Sources */,
+				EF30E65823151CBD003DFD3F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF30E66723151CBE003DFD3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF30E67023151CBE003DFD3F /* rxswift_memory_leakTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF30E66D23151CBE003DFD3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF30E65323151CBD003DFD3F /* rxswift-memory-leak */;
+			targetProxy = EF30E66C23151CBE003DFD3F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF30E65B23151CBD003DFD3F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF30E65C23151CBD003DFD3F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF30E66323151CBD003DFD3F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF30E66423151CBD003DFD3F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF30E67223151CBE003DFD3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF30E67323151CBE003DFD3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF30E67523151CBE003DFD3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCE53E35488ECC6547CC208A /* Pods-rxswift-memory-leak.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2BF4Z6Z9XH;
+				INFOPLIST_FILE = "rxswift-memory-leak/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "shota.kashihara.koala.rxswift-memory-leak";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF30E67623151CBE003DFD3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 874A8F71E5FF6F08ECEF34BD /* Pods-rxswift-memory-leak.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2BF4Z6Z9XH;
+				INFOPLIST_FILE = "rxswift-memory-leak/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "shota.kashihara.koala.rxswift-memory-leak";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EF30E67823151CBE003DFD3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A8B89FF5CE81B9583AD560D /* Pods-rxswift-memory-leakTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2BF4Z6Z9XH;
+				INFOPLIST_FILE = "rxswift-memory-leakTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "shota.kashihara.koala.rxswift-memory-leakTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rxswift-memory-leak.app/rxswift-memory-leak";
+			};
+			name = Debug;
+		};
+		EF30E67923151CBE003DFD3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03E2A45538020425C60EB16E /* Pods-rxswift-memory-leakTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2BF4Z6Z9XH;
+				INFOPLIST_FILE = "rxswift-memory-leakTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "shota.kashihara.koala.rxswift-memory-leakTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rxswift-memory-leak.app/rxswift-memory-leak";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF30E64F23151CBD003DFD3F /* Build configuration list for PBXProject "rxswift-memory-leak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF30E67223151CBE003DFD3F /* Debug */,
+				EF30E67323151CBE003DFD3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF30E67423151CBE003DFD3F /* Build configuration list for PBXNativeTarget "rxswift-memory-leak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF30E67523151CBE003DFD3F /* Debug */,
+				EF30E67623151CBE003DFD3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF30E67723151CBE003DFD3F /* Build configuration list for PBXNativeTarget "rxswift-memory-leakTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF30E67823151CBE003DFD3F /* Debug */,
+				EF30E67923151CBE003DFD3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EF30E65E23151CBD003DFD3F /* rxswift_memory_leak.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EF30E65F23151CBD003DFD3F /* rxswift_memory_leak.xcdatamodel */,
+			);
+			currentVersion = EF30E65F23151CBD003DFD3F /* rxswift_memory_leak.xcdatamodel */;
+			path = rxswift_memory_leak.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EF30E64C23151CBD003DFD3F /* Project object */;
+}

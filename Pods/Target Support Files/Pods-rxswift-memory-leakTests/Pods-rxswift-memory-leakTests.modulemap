@@ -1,0 +1,6 @@
+framework module Pods_rxswift_memory_leakTests {
+  umbrella header "Pods-rxswift-memory-leakTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
