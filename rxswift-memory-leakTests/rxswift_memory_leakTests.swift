@@ -20,7 +20,7 @@ class rxswift_memory_leakTests: XCTestCase {
             _ = viewController.view
         }
 
-        XCTAssertGreaterThan(Resources.total, expectedCount)
+        XCTAssertEqual(Resources.total, expectedCount)
     }
 
     func testNoメモリリーク() {
